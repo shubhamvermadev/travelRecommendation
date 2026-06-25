@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    overflow:hidden;
+}
+
+/* NAVBAR */
+
+.navbar{
+    height:80px;
+    background:rgba(8,40,58,0.95);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 35px;
+    position:relative;
+    z-index:10;
+}
+
+.logo-section{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.logo-section img{
+    width:46px;
+    height:46px;
+}
+
+.logo-section h2{
+    color:#fff;
+    font-size:28px;
+    font-weight:700;
+}
+
+.nav-links{
+    display:flex;
+    gap:55px;
+    margin-right:420px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+}
+
+/* HERO */
+
+.hero{
+    height:calc(100vh - 80px);
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.35),
+            rgba(0,0,0,0.35)
+        ),
+                url("https://img.magnific.com/free-photo/observation-urban-building-business-steel_1127-2397.jpg?semt=ais_hybrid&w=740&q=80");
+
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+/* SOCIAL */
+
+.social-icons{
+    position:absolute;
+    left:25px;
+    top:150px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:28px;
+}
+
+.social-icons a{
+    color:white;
+    font-size:30px;
+}
+
+/* CONTENT */
+
+.content{
+    padding-left:95px;
+    padding-top:10px;
+    color:white;
+}
+
+.content h1{
+    font-size:72px;
+    font-weight:800;
+    margin-bottom:15px;
+}
+
+.company-box{
+    width:92%;
+    background:rgba(25,25,25,0.45);
+    padding:18px 30px;
+    line-height:1.5;
+    font-size:18px;
+    margin-bottom:28px;
+}
+
+.company-box p{
+    margin-bottom:10px;
+}
+
+/* TEAM SECTION */
+
+.team-section{
+    width:92%;
+    background:rgba(25,25,25,0.45);
+    padding:35px;
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
+
+.team-title{
+    width:220px;
+}
+
+.team-title h2{
+    font-size:64px;
+    line-height:1.1;
+    font-weight:800;
+}
+
+.team-members{
+    flex:1;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+}
+
+.member{
+    width:260px;
+}
+
+.member i{
+    font-size:48px;
+    margin-bottom:12px;
+}
+
+.member h3{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.member p{
+    font-size:15px;
+    margin-bottom:15px;
+}
+
+.member span{
+    display:inline-block;
+    background:#0f5d9c;
+    color:white;
+    padding:10px 24px;
+    border-radius:20px;
+    font-weight:600;
+}
